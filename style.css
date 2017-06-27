@@ -6,12 +6,12 @@ body {
 }
 
 div {
-    margin: auto ;
+    margin: auto;
 }
 div.colume {
-    width: 33.3% ;
+    width: 33% ;
     margin: 0 ;
-    padding: 0px;
+    padding: 0px; 
     float:right ;
     position: relative ;
 }
@@ -38,4 +38,26 @@ p {
 p.a {
      font-size: 16px;
      color: white
+}
+
+row {
+    overflow: clear;
+
+
+}
+
+header {
+    overflow: clear ;
+    background: grey ;
+    dispaly: block ;
+}
+
+footer {
+    overflow: clear ;
+    background: grey ;
+    dispaly: block ;
+}
+
+clear {
+    overflow: clear ;
 }
