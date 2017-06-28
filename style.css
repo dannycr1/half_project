@@ -9,6 +9,10 @@ div.header img {
     display:inline ;
     float: right;
 }
+div.search img {
+    display:inline ;
+    float: left;
+}
 
 div.center {
     margin: auto;
@@ -29,7 +33,7 @@ div.colume {
 }
 
 div.content{
-background-color: rgba(127,127,127,0.5);
+background-color: rgba(127,127,127,0.85);
 color: white ;
 display: block ;
 padding: 0px;
@@ -69,12 +73,13 @@ display:block;
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     padding: 0px 5px;
+
 }
 p {
-    font-size: 14px;
+    font-size: 16px;
     width:100%;
     display:block;
     padding: 0px 5px;
@@ -90,15 +95,22 @@ p.a {
 
 row {
     overflow: clear;
-
-
 }
 
 header {
     overflow: clear ;
     background: grey ;
     display: block ;
-    height: 100px ;
+    height: 80px ;
+    font-size: 14px;
+    padding: 5px;
+    margin:0px;
+    width: 100%;
+    font-weight: bold;
+    word-spacing: 5px;
+        direction: left;
+    text-align: left;
+
 }
 
 footer {
@@ -107,11 +119,13 @@ footer {
     position: absolute ;
     text-align: right;
     width: 900px;
-    bottom: -370px;
+    height: 50px;
+    bottom: -300px;
     right: 0;
     margin:auto;
     height: 20px;
-    padding: 15px;
+    padding: 20px 0px;
+    box-sizing: border;
 }
 
 footer a {
@@ -119,6 +133,16 @@ footer a {
     border-left: 2px solid white ;
     padding: 0px 5px;
     color: white ;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none ;
+    border-right: 2px solid white ;
+    padding: 0px;
+    color: white ;
+    margin: 0px;
+    
 }
 
 clear {
@@ -135,25 +159,15 @@ div.map{
 div.map a{
     text-align: right ;
     display: block;
-    margin: 20px;
-    padding:20px;
 }
-map1{
-    float: right;
+.map1{
+padding: 0px 10px;
 }
 
 
 .roundcorner{
     border-radius: 0px 0px 20px 0px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -174,7 +188,7 @@ nav ul li a {
   font-family: Arial;
   font-size: 14px;
   color: white;
-  padding: 5px 20px;
+  padding: 0px 5px;
 }
 
 .dropdown {
@@ -206,6 +220,26 @@ a:hover {
 
 .dropdown-content a:hover {
   color: blue
+
+}
+
+div.search{
+    direction: left;
+    text-align: left;
+    display:inline;
+    
+}
+div.search img{
+    left: 10px;
+    
+}
+.search a{
+    align-content:left ; 
+    border: none;
+    
+}
+.search form{
+    display:inline;
 
 }
 
