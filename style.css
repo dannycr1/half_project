@@ -5,6 +5,11 @@ body {
     margin: auto ;
 }
 
+div.header img {
+    display:inline ;
+    float: right;
+}
+
 div.center {
     margin: auto;
     width: 900px;
@@ -33,6 +38,9 @@ margin: 10px ;
 position: absolute ;
 top: 180px ;
 height: 75% ;
+border-radius: 0px 0px 20px 0px;
+
+
 
 }
 
@@ -40,12 +48,14 @@ div.content1{
 background-color: lightgray;
 color: grey ;
 display: block ;
-width: 90% ;
-margin: 10px ;
+width: 95% ;
+margin: 10px 0px ;
 position: absolute ;
-top: 200px ;
+top: 160px ;
 height: 100% ;
 border: 1px solid grey;
+border-radius: 00px 20px 0px 0px;
+
 }
 
 div.content1 a{
@@ -123,9 +133,79 @@ div.map{
     position: relative;
 }
 div.map a{
-    align-content: right ;
+    text-align: right ;
     display: block;
+    margin: 20px;
+    padding:20px;
 }
 map1{
     float: right;
 }
+
+
+.roundcorner{
+    border-radius: 0px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+nav ul {
+  list-style-type: none;
+  /*background-color: blue;*/
+  /*overflow: hidden;*/
+}
+
+nav ul li {
+  float: right;
+  background-color: grey;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 14px;
+  color: white;
+  padding: 5px 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:grey;
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    font-size: 12px;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a:hover {
+  background-color: Darkgrey;
+}
+
+.dropdown-content a:hover {
+  color: blue
+
+}
+
