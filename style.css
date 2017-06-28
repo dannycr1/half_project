@@ -1,24 +1,40 @@
 body {
     direction: rtl;
-    width: 1000px;
+    width: 900px;
     box-sizing: border ;
-    margin: 0px ;
+    margin: auto ;
 }
 
-div {
+div.center {
     margin: auto;
+    width: 100%;
+    position: fixed;
+    box-sizing: border;
 }
 div.colume {
-    width: 33% ;
+    width: 33.3% ;
     margin: 0 ;
     padding: 0px; 
     float:right ;
     position: relative ;
+    top: 40px;
+    height: 200px;
 }
 
 div.content{
 background-color: rgba(127,127,127,0.5);
 color: white ;
+display: block ;
+width: 90% ;
+margin:0 ;
+position: absolute ;
+top: 220px ;
+height: 100% ;
+}
+
+div.content1{
+background-color: white;
+color: grey ;
 display: block ;
 width: 90% ;
 margin:0 ;
@@ -49,13 +65,27 @@ header {
     overflow: clear ;
     background: grey ;
     display: block ;
-    height: 100%x ;
+    height: 100px ;
 }
 
 footer {
-    overflow: clear ;
     background: grey ;
     display: block ;
+    position: absolute ;
+    text-align: right;
+    width: 900px;
+    bottom: -370px;
+    right: 0;
+    margin:auto;
+    height: 20px;
+    padding: 15px;
+}
+
+footer a {
+    text-decoration: none ;
+    border-left: 2px solid white ;
+    padding: 0px 5px;
+    color: white ;
 }
 
 clear {
